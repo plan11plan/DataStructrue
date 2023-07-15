@@ -1,6 +1,6 @@
 from collections import deque
 
-N = int(input())
+N = int(text())
 
 q = deque(range(1,N+1))
 while(len(q)>1):
