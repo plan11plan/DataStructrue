@@ -1,7 +1,7 @@
 n,v = map(int,input().split())
 
 arr = list(map(int, input().split()))
-print(arr)
+arr.sort()
 
 tapeCm  =v-1
 count =0
