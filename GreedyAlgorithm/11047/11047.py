@@ -1,10 +1,6 @@
-import itertools
-
 n,target = map(int,input().split())
 
-arr=[]
-for _ in range(0,n):
-    arr.append(int(input()))
+arr= [int(input()) for _ in range(n)]
 arr.sort(reverse=True)
 
 box=target
